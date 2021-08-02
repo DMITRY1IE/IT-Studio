@@ -117,7 +117,7 @@ main .first-screen {
   max-height: 900px;
   height: 900px;
   background-color: antiquewhite;
-  background: url(img/header-background.png);
+  background: url(../img/header-background.png);
   background-size: 100% 100%;
   background-position: center;
   display: -webkit-box;
@@ -301,7 +301,7 @@ main .services .services-info .services-items .services-items__item .project-ico
   grid-column: -4/-3;
   width: 110px;
   height: 110px;
-  background-image: url(img/Main-Elipse/Ellipse-1.svg);
+  background-image: url(../img/Main-Elipse/Ellipse-1.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,7 +316,7 @@ main .services .services-info .services-items .services-items__item .project-ico
 main .services .services-info .services-items .services-items__item .project-ico .elipse-1 .elipse-2 {
   width: 90px;
   height: 90px;
-  background-image: url(img/Main-Elipse/Ellipse-2.svg);
+  background-image: url(../img/Main-Elipse/Ellipse-2.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,7 +331,7 @@ main .services .services-info .services-items .services-items__item .project-ico
 main .services .services-info .services-items .services-items__item .project-ico .elipse-1 .elipse-2 .project-elipse__3 {
   width: 40px;
   height: 40px;
-  background-image: url(img/Main-Elipse/project-elipse__3.svg);
+  background-image: url(../img/Main-Elipse/project-elipse__3.svg);
 }
 
 main .services .services-info .services-items .services-items__item .project-h {
@@ -483,7 +483,7 @@ main .about-us .about-us__content .about-us__sub-1 .about-us__text a {
 }
 
 main .about-us .about-us__content .about-us__sub-1 .about-us__img {
-  background-image: url(img/Rectangle2.png);
+  background-image: url(../img/Rectangle2.png);
   width: 500px;
   height: 400px;
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
@@ -553,7 +553,7 @@ main .about-us .about-us__content .about-us__sub-2 .about-us__numbers .p-2 {
 main .all-services {
   width: 100%;
   height: 887px;
-  background-image: url(img/Rectangle3.png);
+  background-image: url(../img/Rectangle3.png);
   background-position: top;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -802,7 +802,7 @@ main .all-project .first-screen__button p a {
 }
 
 main .video {
-  background-image: url(img/Rectangle6.png);
+  background-image: url(../img/Rectangle6.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 735px;
