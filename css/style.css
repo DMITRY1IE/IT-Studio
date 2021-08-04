@@ -850,11 +850,61 @@ main .video p {
 main .video .video-content {
   width: 970px;
   height: 430px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(4.jpg);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(4.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/Rectangle7.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Rectangle7.png);
+  background-size: 100% 100%;
+  background-position: center;
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .video .video-content .video__button {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 200px;
+  z-index: 99999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+main .video .video-content .video__button .play-button {
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-left: 40px;
+}
+
+main .video .video-content .video__button p {
+  margin: 0 auto;
+  margin-right: 29px;
+}
+
+main .video .video-content .open {
+  width: 970px;
+  height: 430px;
+  border-radius: 10px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 main .video .restangle {
@@ -1063,7 +1113,7 @@ footer .footer-content .footer-link__1 .footer-link img {
 footer .footer-content .footer-link__1 .footer-link a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1115,7 +1165,7 @@ footer .footer-content .footer-link__2 .footer-link img {
 footer .footer-content .footer-link__2 .footer-link a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1167,7 +1217,7 @@ footer .footer-content .footer-link__3 .footer-link img {
 footer .footer-content .footer-link__3 .footer-link a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1219,7 +1269,7 @@ footer .footer-content .footer-link__4 .footer-link img {
 footer .footer-content .footer-link__4 .footer-link a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-Regular", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
