@@ -868,6 +868,10 @@ main .video .video-content {
           justify-content: center;
 }
 
+main .video .video-content .none {
+  display: none !important;
+}
+
 main .video .video-content .video__button {
   width: 300px;
   height: 100px;
@@ -899,7 +903,7 @@ main .video .video-content .video__button p {
   margin-right: 29px;
 }
 
-main .video .video-content .open {
+main .video .video-content .video-about__us {
   width: 970px;
   height: 430px;
   border-radius: 10px;

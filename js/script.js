@@ -68,11 +68,8 @@ function copyTouch({ identifier, pageX, pageY }) {
 const video = document.getElementById('video');
 const button = document.getElementById('button');
 
-// menuIcon.addEventListener("click", () => {
-//     button.classList.remove('video__button')
-// });
-function open() {
-    const video = document.getElementById('video');
-    const button = document.getElementById('button');
-    button.classList.remove('video__button');
-}
+button.addEventListener("click", () => {
+    button.classList.toggle('none')
+    video.classList.remove('none')
+});
+

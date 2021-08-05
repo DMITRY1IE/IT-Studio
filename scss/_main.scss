@@ -516,6 +516,9 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
+            .none {
+                display: none !important;
+            }
             .video__button {
                 width: 300px;
                 height: 100px;
@@ -538,7 +541,7 @@ main {
                     margin-right: 29px;
                 }
             }
-            .open {
+            .video-about__us {
                 width: 970px;
                 height: 430px;
                 border-radius: 10px;
