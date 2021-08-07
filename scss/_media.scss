@@ -543,12 +543,12 @@
             justify-content: center;
             flex-direction: column;
             h6 {
-                width: 444px;
+                width: 310px;
                 height: 35px;
                 font-family: "Montserrat-Bold", sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 36px;
+                font-size: 23px;
                 line-height: 53px;
                 text-align: center;
                 color: white;
@@ -560,15 +560,15 @@
                 font-family: "Montserrat-Regular", sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 16px;
+                font-size: 13px;
                 line-height: 25px;
                 text-align: center;
                 margin-bottom: 70px;
                 color: white;
             }
             .video-content {
-                width: 970px;
-                height: 430px;
+                width: 100%;
+                height: 30vw;
                 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Rectangle7.png);
                 background-size: 100% 100%;
                 background-position: center;
@@ -581,8 +581,8 @@
                     display: none !important;
                 }
                 .video__button {
-                    width: 300px;
-                    height: 100px;
+                    width: 230px;
+                    height: 65px;
                     border: 1px solid #ffffff;
                     border-radius: 200px;
                     z-index: 99999;
@@ -591,20 +591,25 @@
                     justify-content: center;
                     cursor: pointer;
                     .play-button {
-                        width: 60px;
-                        height: 60px;
+                        width: 40px;
+                        height: 40px;
                         background-size: 100% 100%;
                         background-position: center;
                         margin-left: 40px;
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
                     }
                     p {
                         margin: 0 auto;
-                        margin-right: 29px;
+                        margin-right: 20px;
+                        margin-bottom: 10px;
                     }
                 }
                 .video-about__us {
-                    width: 970px;
-                    height: 430px;
+                    width: 100%;
+                    height: 30vw;
                     border-radius: 10px;
                     object-fit: fill;
                 }
@@ -631,35 +636,34 @@
                 justify-content: center;
                 flex-direction: column;
                 h1 {
-                    width: 350px;
+                    width: 310px;
                     height: 17px;
                     font-family: "Montserrat-Semi-Bold", sans-serif;
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 18px;
+                    font-size: 13px;
                     line-height: 22px;
                     text-align: center;
                     color: #000000;
                     margin-bottom: 20px;
                 }
                 .sub-p__1 {
-                    width: 730px;
+                    width: 320px;
                     height: 15px;
                     font-family: "Montserrat-Regular", sans-serif;
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 16px;
+                    font-size: 10px;
                     line-height: 25px;
                     text-align: center;
                     color: gray;
                     margin-bottom: 30px;
                 }
                 form {
-                    width: 489px;
+                    width: 320px;
                     height: 45px;
                     display: flex;
                     margin-bottom: 35px;
-
                     input {
                         width: 299px;
                         height: 45px;
@@ -685,7 +689,7 @@
                             font-family: "Montserrat-Medium", sans-serif;
                             font-style: normal;
                             font-weight: 500;
-                            font-size: 16px;
+                            font-size: 10px;
                             line-height: 20px;
                             text-align: center;
                             color: white;
@@ -693,12 +697,12 @@
                     }
                 }
                 .sub-p__2 {
-                    width: 386px;
+                    width: 320px;
                     height: 15px;
                     font-family: "Montserrat-Regular", sans-serif;
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 13px;
+                    font-size: 10px;
                     line-height: 21px;
                     text-align: center;
                     color: gray;
@@ -708,7 +712,7 @@
     }
     footer {
         width: 100%;
-        height: 413px;
+        height: 1113px;
         background-color: #f6f6f8;
         display: flex;
         align-items: center;
@@ -716,11 +720,12 @@
         flex-direction: column;
         .footer-content {
             width: 1100px;
-            height: 198px;
+            height: 1100px;
             display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            margin-bottom: 70px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-top: 70px;
             .footer-link__1 {
                 width: 255px;
                 height: 156px;
@@ -728,6 +733,7 @@
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: column;
+                margin-bottom: 50px;
                 h1 {
                     width: 242px;
                     height: 17px;
@@ -766,6 +772,7 @@
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: column;
+                margin-bottom: 50px;
                 h2 {
                     width: 242px;
                     height: 17px;
@@ -804,6 +811,7 @@
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: column;
+                margin-bottom: 50px;
                 h3 {
                     width: 242px;
                     height: 17px;
