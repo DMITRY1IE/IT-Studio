@@ -1311,7 +1311,7 @@ footer .footer-2021 p {
   header .first-screen {
     width: 100%;
     max-height: 100px;
-    height: 60px;
+    height: 40px;
     border-bottom: 1px solid gray;
     position: relative;
     z-index: 9999;
@@ -1329,13 +1329,15 @@ footer .footer-2021 p {
     margin-left: 0;
   }
   header .first-screen .first-screen__menu nav ul {
-    width: 583px;
-    height: 39px;
+    width: 310px;
+    height: 20px;
+    margin-right: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .first-screen .first-screen__menu nav ul li {
     list-style: none;
@@ -1344,8 +1346,8 @@ footer .footer-2021 p {
     font-family: "Montserrat-Medium", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 7px;
+    line-height: 10px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -1357,8 +1359,8 @@ footer .footer-2021 p {
   }
   main .first-screen {
     width: 100%;
-    max-height: 900px;
-    height: 600px;
+    max-height: 800px;
+    height: 90vw;
     background-color: antiquewhite;
     background: url(../img/header-background.png);
     background-size: 100% 100%;
@@ -1366,9 +1368,9 @@ footer .footer-2021 p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1389,17 +1391,16 @@ footer .footer-2021 p {
     color: white;
   }
   main .first-screen h1 {
-    width: 600px;
-    height: 111px;
+    width: 320px;
+    height: 50px;
     font-family: "Montserrat-Extra-Bold", sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 64px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 34px;
     text-align: center;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   main .first-screen .first-screen__button {
     width: 150px;
@@ -1418,6 +1419,7 @@ footer .footer-2021 p {
         -ms-flex-align: center;
             align-items: center;
     cursor: pointer;
+    margin-bottom: 10vw;
   }
   main .first-screen .first-screen__button p a {
     text-decoration: none;
@@ -1461,19 +1463,19 @@ footer .footer-2021 p {
             flex-direction: column;
   }
   main .services .services-info h1 {
-    width: 600px;
-    height: 88px;
+    width: 320px;
+    height: 80px;
     font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 53px;
+    font-size: 15px;
+    line-height: 33px;
     text-align: center;
     color: black;
     margin-bottom: 50px;
   }
   main .services .services-info .services-p__info {
-    width: 630px;
+    width: 320px;
     height: 41px;
     font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
@@ -1502,7 +1504,7 @@ footer .footer-2021 p {
   main .services .services-info .services-items .services-items__item {
     margin-bottom: 10px;
     height: 100%;
-    width: 353px;
+    width: 320px;
     background-color: white;
     display: -ms-grid;
     display: grid;
@@ -1674,23 +1676,23 @@ footer .footer-2021 p {
         align-self: center;
   }
   main .about-us .about-us__content .about-us__sub-1 .about-us__text h2 {
-    width: 424px;
+    width: 320px;
     height: 88px;
     font-family: "Montserrat-Bold", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 53px;
     color: black;
     margin-bottom: 40px;
   }
   main .about-us .about-us__content .about-us__sub-1 .about-us__text p {
-    width: 489px;
+    width: 320px;
     height: 117px;
     font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     color: black;
     margin-bottom: 30px;
@@ -1710,8 +1712,8 @@ footer .footer-2021 p {
   main .about-us .about-us__content .about-us__sub-1 .about-us__img {
     margin-top: 30px;
     background-image: url(../img/Rectangle2.png);
-    width: 500px;
-    height: 400px;
+    width: 320px;
+    height: 350px;
     -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
             box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
@@ -1733,13 +1735,16 @@ footer .footer-2021 p {
             align-items: flex-end;
   }
   main .about-us .about-us__content .about-us__sub-2 .about-us__numbers {
-    width: 104px;
+    width: 54px;
     height: 67px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main .about-us .about-us__content .about-us__sub-2 .about-us__numbers img {
     -ms-flex-item-align: start;
@@ -1748,18 +1753,18 @@ footer .footer-2021 p {
     margin-top: 8.77px;
   }
   main .about-us .about-us__content .about-us__sub-2 .about-us__numbers .p-1 {
-    width: 54px;
+    width: 24px;
     height: 35px;
     font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 53px;
     color: black;
     -ms-flex-item-align: start;
         -ms-grid-row-align: start;
         align-self: start;
-    margin-left: 10px;
+    text-align: center;
   }
   main .about-us .about-us__content .about-us__sub-2 .about-us__numbers .p-2 {
     width: 100px;
@@ -1767,9 +1772,10 @@ footer .footer-2021 p {
     font-family: "Montserrat-Regular", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     color: gray;
+    text-align: center;
   }
   main .all-services {
     width: 100%;
@@ -1867,7 +1873,7 @@ footer .footer-2021 p {
     margin-top: 70px;
   }
   main .all-services .all-services__content .all-services__items .all-services__item {
-    width: 350px;
+    width: 320px;
     height: 544px;
     margin-bottom: 40px;
   }
